@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8174B3A923CCBFCD005B7709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8174B3A823CCBFCD005B7709 /* AppDelegate.swift */; };
+		8174B3AB23CCBFCD005B7709 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8174B3AA23CCBFCD005B7709 /* SceneDelegate.swift */; };
+		8174B3AD23CCBFCD005B7709 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8174B3AC23CCBFCD005B7709 /* ViewController.swift */; };
+		8174B3B023CCBFCD005B7709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8174B3AE23CCBFCD005B7709 /* Main.storyboard */; };
+		8174B3B323CCBFCD005B7709 /* hera9030_a1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8174B3B123CCBFCD005B7709 /* hera9030_a1.xcdatamodeld */; };
+		8174B3B523CCBFCE005B7709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8174B3B423CCBFCE005B7709 /* Assets.xcassets */; };
+		8174B3B823CCBFCE005B7709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8174B3B623CCBFCE005B7709 /* LaunchScreen.storyboard */; };
+		8174B3C323CCBFCE005B7709 /* hera9030_a1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8174B3C223CCBFCE005B7709 /* hera9030_a1Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8174B3BF23CCBFCE005B7709 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8174B39D23CCBFCD005B7709 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8174B3A423CCBFCD005B7709;
+			remoteInfo = hera9030_a1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8174B3A523CCBFCD005B7709 /* hera9030_a1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hera9030_a1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8174B3A823CCBFCD005B7709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8174B3AA23CCBFCD005B7709 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8174B3AC23CCBFCD005B7709 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8174B3AF23CCBFCD005B7709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8174B3B223CCBFCD005B7709 /* hera9030_a1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hera9030_a1.xcdatamodel; sourceTree = "<group>"; };
+		8174B3B423CCBFCE005B7709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8174B3B723CCBFCE005B7709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8174B3B923CCBFCE005B7709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8174B3BE23CCBFCE005B7709 /* hera9030_a1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hera9030_a1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8174B3C223CCBFCE005B7709 /* hera9030_a1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hera9030_a1Tests.swift; sourceTree = "<group>"; };
+		8174B3C423CCBFCE005B7709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8174B3A223CCBFCD005B7709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8174B3BB23CCBFCE005B7709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8174B39C23CCBFCD005B7709 = {
+			isa = PBXGroup;
+			children = (
+				8174B3A723CCBFCD005B7709 /* hera9030_a1 */,
+				8174B3C123CCBFCE005B7709 /* hera9030_a1Tests */,
+				8174B3A623CCBFCD005B7709 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8174B3A623CCBFCD005B7709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8174B3A523CCBFCD005B7709 /* hera9030_a1.app */,
+				8174B3BE23CCBFCE005B7709 /* hera9030_a1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8174B3A723CCBFCD005B7709 /* hera9030_a1 */ = {
+			isa = PBXGroup;
+			children = (
+				8174B3A823CCBFCD005B7709 /* AppDelegate.swift */,
+				8174B3AA23CCBFCD005B7709 /* SceneDelegate.swift */,
+				8174B3AC23CCBFCD005B7709 /* ViewController.swift */,
+				8174B3AE23CCBFCD005B7709 /* Main.storyboard */,
+				8174B3B423CCBFCE005B7709 /* Assets.xcassets */,
+				8174B3B623CCBFCE005B7709 /* LaunchScreen.storyboard */,
+				8174B3B923CCBFCE005B7709 /* Info.plist */,
+				8174B3B123CCBFCD005B7709 /* hera9030_a1.xcdatamodeld */,
+			);
+			path = hera9030_a1;
+			sourceTree = "<group>";
+		};
+		8174B3C123CCBFCE005B7709 /* hera9030_a1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8174B3C223CCBFCE005B7709 /* hera9030_a1Tests.swift */,
+				8174B3C423CCBFCE005B7709 /* Info.plist */,
+			);
+			path = hera9030_a1Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8174B3A423CCBFCD005B7709 /* hera9030_a1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8174B3C723CCBFCE005B7709 /* Build configuration list for PBXNativeTarget "hera9030_a1" */;
+			buildPhases = (
+				8174B3A123CCBFCD005B7709 /* Sources */,
+				8174B3A223CCBFCD005B7709 /* Frameworks */,
+				8174B3A323CCBFCD005B7709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hera9030_a1;
+			productName = hera9030_a1;
+			productReference = 8174B3A523CCBFCD005B7709 /* hera9030_a1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8174B3BD23CCBFCE005B7709 /* hera9030_a1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8174B3CA23CCBFCE005B7709 /* Build configuration list for PBXNativeTarget "hera9030_a1Tests" */;
+			buildPhases = (
+				8174B3BA23CCBFCE005B7709 /* Sources */,
+				8174B3BB23CCBFCE005B7709 /* Frameworks */,
+				8174B3BC23CCBFCE005B7709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8174B3C023CCBFCE005B7709 /* PBXTargetDependency */,
+			);
+			name = hera9030_a1Tests;
+			productName = hera9030_a1Tests;
+			productReference = 8174B3BE23CCBFCE005B7709 /* hera9030_a1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8174B39D23CCBFCD005B7709 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = wlu;
+				TargetAttributes = {
+					8174B3A423CCBFCD005B7709 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					8174B3BD23CCBFCE005B7709 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 8174B3A423CCBFCD005B7709;
+					};
+				};
+			};
+			buildConfigurationList = 8174B3A023CCBFCD005B7709 /* Build configuration list for PBXProject "hera9030_a1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8174B39C23CCBFCD005B7709;
+			productRefGroup = 8174B3A623CCBFCD005B7709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8174B3A423CCBFCD005B7709 /* hera9030_a1 */,
+				8174B3BD23CCBFCE005B7709 /* hera9030_a1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8174B3A323CCBFCD005B7709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8174B3B823CCBFCE005B7709 /* LaunchScreen.storyboard in Resources */,
+				8174B3B523CCBFCE005B7709 /* Assets.xcassets in Resources */,
+				8174B3B023CCBFCD005B7709 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8174B3BC23CCBFCE005B7709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8174B3A123CCBFCD005B7709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8174B3AD23CCBFCD005B7709 /* ViewController.swift in Sources */,
+				8174B3B323CCBFCD005B7709 /* hera9030_a1.xcdatamodeld in Sources */,
+				8174B3A923CCBFCD005B7709 /* AppDelegate.swift in Sources */,
+				8174B3AB23CCBFCD005B7709 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8174B3BA23CCBFCE005B7709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8174B3C323CCBFCE005B7709 /* hera9030_a1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8174B3C023CCBFCE005B7709 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8174B3A423CCBFCD005B7709 /* hera9030_a1 */;
+			targetProxy = 8174B3BF23CCBFCE005B7709 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8174B3AE23CCBFCD005B7709 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8174B3AF23CCBFCD005B7709 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8174B3B623CCBFCE005B7709 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8174B3B723CCBFCE005B7709 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8174B3C523CCBFCE005B7709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8174B3C623CCBFCE005B7709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8174B3C823CCBFCE005B7709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hera9030_a1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.wlu.hera9030-a1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8174B3C923CCBFCE005B7709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hera9030_a1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.wlu.hera9030-a1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8174B3CB23CCBFCE005B7709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hera9030_a1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.wlu.hera9030-a1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hera9030_a1.app/hera9030_a1";
+			};
+			name = Debug;
+		};
+		8174B3CC23CCBFCE005B7709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hera9030_a1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.wlu.hera9030-a1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hera9030_a1.app/hera9030_a1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8174B3A023CCBFCD005B7709 /* Build configuration list for PBXProject "hera9030_a1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8174B3C523CCBFCE005B7709 /* Debug */,
+				8174B3C623CCBFCE005B7709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8174B3C723CCBFCE005B7709 /* Build configuration list for PBXNativeTarget "hera9030_a1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8174B3C823CCBFCE005B7709 /* Debug */,
+				8174B3C923CCBFCE005B7709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8174B3CA23CCBFCE005B7709 /* Build configuration list for PBXNativeTarget "hera9030_a1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8174B3CB23CCBFCE005B7709 /* Debug */,
+				8174B3CC23CCBFCE005B7709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8174B3B123CCBFCD005B7709 /* hera9030_a1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8174B3B223CCBFCD005B7709 /* hera9030_a1.xcdatamodel */,
+			);
+			currentVersion = 8174B3B223CCBFCD005B7709 /* hera9030_a1.xcdatamodel */;
+			path = hera9030_a1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8174B39D23CCBFCD005B7709 /* Project object */;
+}
