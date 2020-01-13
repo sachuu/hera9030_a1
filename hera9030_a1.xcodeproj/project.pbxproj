@@ -15,10 +15,6 @@
 		8174B3B523CCBFCE005B7709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8174B3B423CCBFCE005B7709 /* Assets.xcassets */; };
 		8174B3B823CCBFCE005B7709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8174B3B623CCBFCE005B7709 /* LaunchScreen.storyboard */; };
 		8174B3C323CCBFCE005B7709 /* hera9030_a1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8174B3C223CCBFCE005B7709 /* hera9030_a1Tests.swift */; };
-		8174B3DD23CCCFD6005B7709 /* Unknown-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8174B3D923CCCFD6005B7709 /* Unknown-1.jpeg */; };
-		8174B3DE23CCCFD6005B7709 /* Unknown-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8174B3DA23CCCFD6005B7709 /* Unknown-3.jpeg */; };
-		8174B3DF23CCCFD6005B7709 /* Unknown-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8174B3DB23CCCFD6005B7709 /* Unknown-2.jpeg */; };
-		8174B3E023CCCFD6005B7709 /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8174B3DC23CCCFD6005B7709 /* Unknown.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +40,6 @@
 		8174B3BE23CCBFCE005B7709 /* hera9030_a1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hera9030_a1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8174B3C223CCBFCE005B7709 /* hera9030_a1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hera9030_a1Tests.swift; sourceTree = "<group>"; };
 		8174B3C423CCBFCE005B7709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8174B3D923CCCFD6005B7709 /* Unknown-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown-1.jpeg"; sourceTree = "<group>"; };
-		8174B3DA23CCCFD6005B7709 /* Unknown-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown-3.jpeg"; sourceTree = "<group>"; };
-		8174B3DB23CCCFD6005B7709 /* Unknown-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown-2.jpeg"; sourceTree = "<group>"; };
-		8174B3DC23CCCFD6005B7709 /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +86,6 @@
 				8174B3AC23CCBFCD005B7709 /* ViewController.swift */,
 				8174B3AE23CCBFCD005B7709 /* Main.storyboard */,
 				8174B3B423CCBFCE005B7709 /* Assets.xcassets */,
-				8174B3D823CCCFD6005B7709 /* image */,
 				8174B3B623CCBFCE005B7709 /* LaunchScreen.storyboard */,
 				8174B3B923CCBFCE005B7709 /* Info.plist */,
 				8174B3B123CCBFCD005B7709 /* hera9030_a1.xcdatamodeld */,
@@ -109,18 +100,6 @@
 				8174B3C423CCBFCE005B7709 /* Info.plist */,
 			);
 			path = hera9030_a1Tests;
-			sourceTree = "<group>";
-		};
-		8174B3D823CCCFD6005B7709 /* image */ = {
-			isa = PBXGroup;
-			children = (
-				8174B3D923CCCFD6005B7709 /* Unknown-1.jpeg */,
-				8174B3DA23CCCFD6005B7709 /* Unknown-3.jpeg */,
-				8174B3DB23CCCFD6005B7709 /* Unknown-2.jpeg */,
-				8174B3DC23CCCFD6005B7709 /* Unknown.jpeg */,
-			);
-			name = image;
-			path = ../../image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,12 +183,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8174B3DD23CCCFD6005B7709 /* Unknown-1.jpeg in Resources */,
 				8174B3B823CCBFCE005B7709 /* LaunchScreen.storyboard in Resources */,
 				8174B3B523CCBFCE005B7709 /* Assets.xcassets in Resources */,
-				8174B3DF23CCCFD6005B7709 /* Unknown-2.jpeg in Resources */,
-				8174B3DE23CCCFD6005B7709 /* Unknown-3.jpeg in Resources */,
-				8174B3E023CCCFD6005B7709 /* Unknown.jpeg in Resources */,
 				8174B3B023CCBFCD005B7709 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

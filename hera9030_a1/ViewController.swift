@@ -8,6 +8,13 @@
 
 import UIKit
 
+var orangeImage = "image/Unknown-1"
+var pineImage = "image/Unknown-3"
+var lemonImage = "image/Unknown-2"
+var appleImage = "image/Unknown"
+
+
+//Variables that track up count / down count of each fruit
 var upCountPine = 0
 var downCountPine = 0
 
@@ -20,12 +27,12 @@ var downCountApple = 0
 var upCountOrange = 0
 var downCountOrange = 0
 
+//Used to change the view
 var slideshowCount = 0
 //0 - orange
 //1 - pineapple
 //2 - lemon
 //3 - apple
-
 
 class ViewController: UIViewController {
     
@@ -34,15 +41,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    //UI variables
     @IBOutlet weak var fruitView: UIImageView!
     
     @IBOutlet weak var upLabel: UILabel!
     
     @IBOutlet weak var downLabel: UILabel!
     
+    //Upvote button function
     @IBAction func upButton(_ sender: UIButton) {
-        
-        print(slideshowCount)
         
         if(slideshowCount == 0){
             upCountOrange += 1
@@ -64,6 +71,8 @@ class ViewController: UIViewController {
             upLabel.text = String(upCountApple)
         }
     }
+    
+    //Downvote button function
     @IBAction func downButton(_ sender: Any) {
         if(slideshowCount == 0){
             downCountOrange += 1
@@ -86,30 +95,29 @@ class ViewController: UIViewController {
         }
     }
     
+    //Next button function / changing images and labels 
     @IBAction func nextButton(_ sender: Any) {
         
         slideshowCount += 1
         
-        print(slideshowCount)
-        
         if(slideshowCount == 1){
-            fruitView.image = UIImage(named: "Unknown-3.jpeg")
+            fruitView.image = UIImage(named: pineImage)
             upLabel.text = String(upCountPine)
             downLabel.text = String(downCountPine)
         }
         else if(slideshowCount == 2){
-            fruitView.image = UIImage(named: "Unknown-2.jpeg")
+            fruitView.image = UIImage(named: lemonImage)
             upLabel.text = String(upCountLemon)
             downLabel.text = String(downCountLemon)
         }
         else if(slideshowCount == 3){
-            fruitView.image = UIImage(named: "Unknown.jpeg")
+            fruitView.image = UIImage(named: appleImage)
             upLabel.text = String(upCountApple)
             downLabel.text = String(downCountApple)
         }
         else{
             slideshowCount = 0
-            fruitView.image = UIImage(named: "Unknown-1.jpeg")
+            fruitView.image = UIImage(named: orangeImage)
             upLabel.text = String(upCountOrange)
             downLabel.text = String(downCountOrange)
         }
